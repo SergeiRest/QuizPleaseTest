@@ -91,7 +91,7 @@ namespace QuizPlease.Energy
                 if (_current.Value >= _settings.MaxEnergy)
                 {
                     _current.Value = _settings.MaxEnergy;
-                    _secondsToNext.Value = 1f;
+                    _secondsToNext.Value = 1;
                     await WaitUntilBelowMaxAsync(cancellationToken);
                     continue;
                 }

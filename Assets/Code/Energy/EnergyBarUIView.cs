@@ -1,5 +1,3 @@
-using System;
-using System.Collections.Generic;
 using QuizPlease.Core.UI;
 using TMPro;
 using UniRx;
