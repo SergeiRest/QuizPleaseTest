@@ -3,7 +3,7 @@ using UniRx;
 
 namespace QuizPlease.Energy
 {
-    public interface IEnergyService : IService
+    public interface IEnergyService
     {
         IReadOnlyReactiveProperty<int> Current { get; }
 
